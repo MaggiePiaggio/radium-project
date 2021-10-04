@@ -11,7 +11,6 @@ body article{
 }
 
 .container{
-
     background-color: rgb(0, 0, 0);
     width: 95%;
     margin: auto;
@@ -72,7 +71,7 @@ header .color{
 
 #boxes{
     margin-top: 20px;
-    display: flex;
+    width: 100vw;
 }
 
 .box{
@@ -93,6 +92,9 @@ header .color{
     font-size: 25px;
 }
 
+#entretainment{
+
+}
 
 aside.top-list{
     color: black;
