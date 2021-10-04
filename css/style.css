@@ -13,7 +13,7 @@ body article{
 .container{
 
     background-color: rgb(0, 0, 0);
-    width: 90%;
+    width: 95%;
     margin: auto;
     overflow: hidden;
     color: white;
@@ -60,20 +60,30 @@ header .color{
     color: #dbd13b;
 }
 
+.search-button{
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.search-button input{
+    height: 32px;
+}
+
 #boxes{
     margin-top: 20px;
     display: flex;
 }
 
-#boxes .box{
-    float: left;
+.box{
     text-align: center;
     width: 30%;
     padding: 10px;
 }
 
-#boxes .box img{
-    width: 90px;
+.img-news{
+    max-width: 25vw;
+    height: auto;
 }
 
 
