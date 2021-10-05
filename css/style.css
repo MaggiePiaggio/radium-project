@@ -13,10 +13,10 @@ body article{
 .container{
     background-color: rgb(0, 0, 0);
     width: 95%;
-    margin: auto;
+    margin-left: 3vw;
+    margin-right: 3vw;
     overflow: hidden;
     color: white;
-    padding-right: 10px;
 }
 
 ul{
@@ -36,7 +36,7 @@ ul{
 header{
     background: #4a4435;
     color: #ffffff;
-    padding-top:30px;
+    padding-top:2vw;
     min-height:70px;
     border-bottom: #dbd13b 3px solid; 
 }
@@ -70,18 +70,28 @@ header .color{
 }
 
 #boxes{
-    margin-top: 20px;
-    width: 100vw;
+    width: 30%;
+    min-width: 320;
+    max-width: 770;
+    display: flex;
+    flex-wrap: wrap;
+    
+
 }
 
 .box{
+    align-content: center;
     text-align: center;
     width: 30%;
+    text-align: center;
     padding: 10px;
+    
 }
 
 .img-news{
-    max-width: 25vw;
+    width: 28vw;
+    max-width: 320;
+    min-width: 770;
     height: auto;
 }
 
@@ -89,28 +99,46 @@ header .color{
 #news-name{
     text-align: center;
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 3vw;
+}
+
+.title{
+    font-size: 1vw;
+    text-align: center;
+
 }
 
 #entretainment{
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 aside.top-list{
-    color: black;
+    color: white;
+    background-color: black;
+    margin-top: 15vw;
     float: right;
     text-align: center;
-    margin-top: 30xp;
-    width: 25%;
-    margin-top: 10px;
+    width: 30%;
+    min-width: 320px;
+    max-width: 770;
+    flex-wrap: wrap;
+
 }
 
 article.page-title{
+    display: flex;
     float: left;
+    margin-left: 3vw;
     width: 55%;
     text-align: left;
 }
 
+.link{
+    color: black;
+    text-decoration: none;
+}
 
 footer {
     background: #4a4435;
@@ -120,5 +148,8 @@ footer {
     min-height:70px;
     border-top: #dbd13b 3px solid;
     text-align: center;
+}
 
+@media screen {
+    
 }
